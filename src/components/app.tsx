@@ -10,7 +10,7 @@ const MyApp = () => {
   const device = getDevice();
   // Framework7 Parameters
   const f7params = {
-    name: "dona_chica", // App name
+    name: "dona Chica", // App name
     theme: "auto", // Automatic theme detection
 
     // App store
@@ -50,7 +50,7 @@ const MyApp = () => {
   return (
     <App {...f7params}>
       {/* Your main view, should have "view-main" class */}
-      <View main className="safe-areas" url="/" />
+      <View main className="safe-areas" url="/splash" />
     </App>
   );
 };

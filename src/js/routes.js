@@ -1,10 +1,10 @@
+import SplashPage from "../pages/splash";
 
-import HomePage from '../pages/home.tsx';
 
 var routes = [
 	{
-		path: '/',
-		component: HomePage,
+		path: '/splash',
+		component: SplashPage,
 	},
 ];
 
