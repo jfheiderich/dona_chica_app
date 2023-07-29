@@ -1,6 +1,35 @@
-/* iOS Cordova Tweak */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;1,600&display=swap");
+
 .device-cordova.device-ios {
   height: 100vh;
 }
 
-/* Your app custom styles here */
+.page-content {
+  font-family: "Barlow", sans-serif;
+}
+
+h1 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+p,
+a {
+  font-size: 12px;
+  font-weight: 300;
+}
